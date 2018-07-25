@@ -2,6 +2,7 @@
 <html lang="en">
 <style>
     .blue-box {
+        display: block;
         color: whitesmoke;
         border-color: rgb(32, 4, 160);
         border-width: 10px;
@@ -9,22 +10,37 @@
         background-color: rgb(41, 41, 150);
     }
 
+    .heading-center {
+        display: block;
+        text-align: center;
+        /* margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%; */
+    }
+
     .center-text {
+        display: block;
         text-align: left;
-        padding-left: 200px;
-        padding-right: 100px;
+        margin-left: 10%;
+        margin-right: 10%;
+        outline: 1px solid rgb(0, 255, 55);
 
     }
 
-
-
-
     .image-right {
-        padding-left: 600px;
+
+        float: right;
+        margin-right: 10px;
+        margin-top: 150px;
     }
 
     .thick-lower-rectangle {
+        display: block;
         padding-bottom: -300px;
+    }
+
+    .main-content {
+        outline: 1px solid red;
     }
 </style>
 
@@ -39,29 +55,40 @@
 
 <body>
     <!-- code for the header -->
-    <h1 class="blue-box">
-        Hey there I have a cool site
-    </h1>
-
+    <div>
+        <h1 class="blue-box heading-center">
+            Hey there I have a cool site
+        </h1>
+    </div>
     <hr />
+    <div class="main-content">
+        <img class="image-right" src="https://www.placeholder.jpg" height=100px; width=200px; color=blue;>
+        <p class="image-right">Another Article</p>
+        < <div>
+            <h2 style="font-size: 24px;" class="center-text">Why designers are so important!</h2>
+            <p class="center-text">
+                <b>Lorem ipsum</b> ipsum dolor sit amet consectetur, adipisicing elit. Eum necessitatibus laboriosam adipisci
+                cumque. Odio atque, quos quae natus, neque veritatis repellat, a possimus numquam laborum officiis accusantium.
+                Consectetur, sed excepturi?quos quae natus, neque veritatis repellat, a possimus numquam laborum officiis
+                accusantium. Consectetur, sed excepturi?explicabo ea repellat modi hic odio, ipsa odit iusto placeat aspernatur.
+                Molestias voluptates ipsa distinctio modi.dolor sit amet consectetur adipisicing elit. Ad eligendi expedita
+                eaque voluptatum reprehenderit explicabo ea repellat modi hic odio,dolor sit amet consectetur dita eaque
+                voluptatum reprehenderit
 
-    <h2 style="font-size: 24px;" class="center-text">Why designers are so important!</h2>
-
-    <img class="image-right" src="https://www.placeholder.jpg" height=100px; width=200px; color=blue;>
-    <p class="image-right">Another Article</p>
-
-    <p class="center-text">
-        <b>Lorem ipsum</b> ipsum dolor sit amet consectetur, adipisicing elit. Eum necessitatibus laboriosam adipisci cumque.
-        Odio atque, quos quae natus, neque veritatis repellat, a possimus numquam laborum officiis accusantium. Consectetur,
-        sed excepturi?
-    </p>
-    <p class="center-text">
-        <b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. Ad eligendi expedita eaque voluptatum reprehenderit
-        explicabo ea repellat modi hic odio, ipsa odit iusto placeat aspernatur. Molestias voluptates ipsa distinctio modi.
+            </p>
+            <p class="center-text">
+                <b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. Ad eligendi expedita eaque voluptatum reprehenderit
+                explicabo ea repellat modi hic odio, ipsa odit iusto placeat aspernatur. Molestias voluptates ipsa distinctio
+                modi.dolor sit amet consectetur adipisicing elit. Ad eligendi expedita eaque voluptatum reprehenderit explicabo
+                ea repellat modi hic odio,dolor sit amet consectetur adipisicing elit. Ad eligendi expedita eaque voluptatum
+                reprehenderit explicabo ea repellat modi hic odio,explicabo ea repellat modi hic odio, i
+    </div>
     </p>
 
     <!-- code for the footer (h3) -->
     <h3 class="blue-box thick-lower-rectangle">need some text filler for the time being</h3>
+
+
 </body>
 
 </html>
