@@ -15,6 +15,14 @@ body, html {
 }
 #toplight {
     border-radius: 20px;
-    border-color: aqua
+    border-color: rgb(219, 18, 18)
     
+}
+#midlight{
+    border-radius: 20px;
+    border-color: yellow;
+}
+#botlight{
+    border-radius: 20px;
+    border-color: green;
 }
