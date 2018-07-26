@@ -1,3 +1,12 @@
-.fortyvh{
-    background-image:40vh;
-  }
+.set-height{
+
+    min-height:300px;
+}
+
+.mainImage{
+    min-height:300px;
+    min-width: 650px;
+}
+.low-bar-size{
+    min-height:150px;
+}
