@@ -1,3 +1,9 @@
+
+ *{
+    border: 1px;
+    color: red;
+    }
+
 .set-height{
 
     min-height:300px;
@@ -10,3 +16,4 @@
 .low-bar-size{
     min-height:150px;
 }
+
