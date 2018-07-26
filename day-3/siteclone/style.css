@@ -1,7 +1,7 @@
 
  *{
-    border: 1px;
-    color: red;
+    outline: 1px solid red;
+    
     }
 
 .set-height{
@@ -16,4 +16,6 @@
 .low-bar-size{
     min-height:150px;
 }
-
+.no-right-margin{
+    margin-right: 0px;
+}
